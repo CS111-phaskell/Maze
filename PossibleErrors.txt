@@ -8,3 +8,6 @@ Possible problems
 6. Walls arent connected (Not right hand rule friendly)
 7. There are things besides(S and E)
 8. Empty file(no maze)
+9. Easy 
+10. Med 
+11. Hard
