@@ -6,7 +6,7 @@ Possible problems
 4. More than one S or E
 5. There is no path to E from S
 6. Walls arent connected (Not right hand rule friendly)
-7. There are things besides(S and E)
+7. There are things besides(S,E,o)
 8. Empty file(no maze)
 9. Easy 
 10. Med 

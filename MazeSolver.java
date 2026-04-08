@@ -67,12 +67,33 @@ class Maze {
 class MazeSolver {
 
 	public static void main(String[] args) {
-		if(args.length < 1) {
-			System.out.println("ERROR: no filename provided.");
-			return;
+		File dir = new File(args[0]);
+		String[] filesArr = null;
+		if(dir.isDirectory()){
+			File[] listFiles = dir.listFiles();
+			filesArr = new String[listFiles.length];
+	
+			for(int i = 0; i < listFiles.length; i++){
+				if(listFiles[i].isFile()) {
+					filesArr[i]=(listFiles[i].getName());
+				}
+			}
 		}
-		Maze thisMaze = new Maze(args[0]);
-		thisMaze.print();
+
+		for (String filepath : filesArr) {
+			Maze thisMaze = new Maze(filepath);
+			// this line add the algo method call
+
+
+			
+		}
+
+		// if(args.length < 1) {
+		// 	System.out.println("ERROR: no filename provided.");
+		// 	return;
+		// }
+		// Maze thisMaze = new Maze(args[0]);
+		// thisMaze.print();
 	}
 
 }
