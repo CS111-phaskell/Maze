@@ -13,3 +13,14 @@ Maze9 — uses lowercase o instead of uppercase O
 Maze10
 Maze11
 Maze12
+1. Rows are different lengths
+2. No start point in the maze
+3. No end point
+4. More than one S or E
+5. There is no path to E from S
+6. Walls arent connected (Not right hand rule friendly)
+7. There are things besides(S,E,o)
+8. Empty file(no maze)
+9. Easy 
+10. Med 
+11. Hard
