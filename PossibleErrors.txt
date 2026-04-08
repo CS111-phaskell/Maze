@@ -1,6 +1,7 @@
+THE TEST CASES
 These are the 11 different test cases we came up with that can be tested using the program 
-Possible problems
 
+Possible problems:
 Maze1 — rows are different lengths, maze is not rectangular
 Maze2 — no start point (S) in the maze
 Maze3 — no end point (E) in the maze
@@ -14,6 +15,10 @@ Maze10- uses S and o it should take meduim amount of time to solve
 Maze11- it's supposed to be defficult for the program to solve 
 Maze12- It should take time to solve or pottentially throw an error
 
+ASIDE:Paull did not specify if O can be on the edge of the maze. Although this is a legal maze
+we will choose to ignore this case for simplicities sake (edge case handling).
+
+Description of each test case/maze:
 1. Rows are different lengths
 2. No start point in the maze
 3. No end point
