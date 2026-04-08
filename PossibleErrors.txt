@@ -1,13 +1,15 @@
+These are the 11 different test cases we came up with that can be tested using the program 
 Possible problems
 
-1. Rows are different lengths
-2. No start point in the maze
-3. No end point
-4. More than one S or E
-5. There is no path to E from S
-6. Walls arent connected (Not right hand rule friendly)
-7. There are things besides(S and E)
-8. Empty file(no maze)
-9. Easy 
-10. Med 
-11. Hard
+Maze1 — rows are different lengths, maze is not rectangular
+Maze2 — no start point (S) in the maze
+Maze3 — no end point (E) in the maze
+Maze4 — more than one S and more than one E in the maze
+Maze5 — S and E exist but there is no connected path between them
+Maze6 — contains invalid characters (spaces) that are nott S, E, O, or -
+Maze7 — contains invalid characters like lowercase o, F, G, and 0 (zero)
+Maze8 — empty file with no maze data
+Maze9 — uses lowercase o instead of uppercase O
+Maze10
+Maze11
+Maze12
