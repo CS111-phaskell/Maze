@@ -1,7 +1,7 @@
 // filename: MazeSolver.java
 //
 // Maze Solver - Full Solution
-// authors: dkhati2
+// authors: dkhati2 , jfasil-usf
 
 import java.util.Scanner;
 import java.io.File;
@@ -63,13 +63,23 @@ class Maze {
     // scans the maze to find the row and col of 'S'
     // stores them in startRow and startCol
     public void findStart() {
+        boolean foundStart = false;
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 if (maze[i][j] == 'S') {
+                    if (foundStart) {
+                    System.out.println("ERROR: Multiple start positions found");
+                    System.exit(1);
+                    }
                     startRow = i;
                     startCol = j;
+                    foundStart = true;
                 }
             }
+        }
+        if(!foundStart){
+            System.out.println("ERROR: No start position found");
+            System.exit(1);
         }
     }
 
