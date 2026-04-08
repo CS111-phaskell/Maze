@@ -10,9 +10,9 @@ Maze6 — contains invalid characters (spaces) that are nott S, E, O, or -
 Maze7 — contains invalid characters like lowercase o, F, G, and 0 (zero)
 Maze8 — empty file with no maze data
 Maze9 — uses lowercase o instead of uppercase O
-Maze10
-Maze11
-Maze12
+Maze10- uses S and o it should take meduim amount of time to solve
+Maze11- it's supposed to be defficult for the program to solve 
+Maze12- It should take time to solve or pottentially throw an error
 
 1. Rows are different lengths
 2. No start point in the maze
