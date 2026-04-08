@@ -13,6 +13,7 @@ Maze9 — uses lowercase o instead of uppercase O
 Maze10
 Maze11
 Maze12
+
 1. Rows are different lengths
 2. No start point in the maze
 3. No end point
